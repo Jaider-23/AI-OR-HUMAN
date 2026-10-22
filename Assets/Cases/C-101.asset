@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-101
+  m_EditorClassIdentifier: 
+  caseId: C-101
+  level: 1
+  contentType: 0
+  title: "Mensaje de un compa\xF1ero"
+  sourceLabel: "Chat \xB7 Andr\xE9s (contacto guardado)"
+  contentBody: "oye parce ma\xF1ana no llego al entreno, se me volvio a da\xF1ar
+    la moto jaja :)\nle dices al profe Ram\xEDrez q le mando el informe el viernes?
+    graciasss"
+  evidenceSprite: {fileID: 0}
+  findings:
+  - tool: 0
+    result: "Errores espont\xE1neos (\"volvio\", \"q\"), jerga regional y un emoticono
+      usado con iron\xEDa. Patr\xF3n t\xEDpico de escritura humana r\xE1pida."
+    isRelevant: 1
+  - tool: 1
+    result: Contacto guardado desde 2021 con historial de conversaciones coherente.
+    isRelevant: 1
+  - tool: 2
+    result: "Perfil personal con fotos de varios a\xF1os."
+    isRelevant: 0
+  correctVerdict: 0
+  canShare: 0
+  adaSuggestion: 0
+  adaHint: Lenguaje coloquial, errores naturales y detalles personales. Me inclino
+    por HUMANO.
+  introSpeaker: 0
+  introDialogue: "Empecemos con algo sencillo. Un mensaje de chat lleg\xF3 a la bandeja
+    de pruebas."
+  feedbackExplanation: "Era HUMANO. Se\xF1ales: errores tipogr\xE1ficos espont\xE1neos,
+    jerga local (\"parce\"), referencias concretas a personas y hechos verificables.
+    Ojo: la informalidad sola no prueba nada, pero sumada a un contacto conocido
+    y un contexto coherente apunta a un humano."

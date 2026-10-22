@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-202
+  m_EditorClassIdentifier: 
+  caseId: C-202
+  level: 2
+  contentType: 1
+  title: Cambio de horario del taller
+  sourceLabel: 'De: m.ramirez@universidad.edu.co'
+  contentBody: "Hola a todos,\n\nEl taller de pensamiento cr\xEDtico del jueves pasa
+    al sal\xF3n 304 (bloque B) porque el auditorio est\xE1 en mantenimiento. Empezamos
+    a las 2:15 p. m., no a las 2:00, por el cambio de turno del bloque.\n\nTraigan
+    el borrador del ensayo impreso, por favor.\n\nMarta Ram\xEDrez"
+  evidenceSprite: {fileID: 0}
+  findings:
+  - tool: 1
+    result: "Dominio oficial universidad.edu.co con firma digital v\xE1lida."
+    isRelevant: 1
+  - tool: 0
+    result: "Informaci\xF3n espec\xEDfica y coherente con el calendario acad\xE9mico
+      publicado."
+    isRelevant: 1
+  - tool: 3
+    result: No contiene enlaces.
+    isRelevant: 0
+  correctVerdict: 0
+  canShare: 0
+  adaSuggestion: 0
+  adaHint: "Detalles log\xEDsticos muy espec\xEDficos y coherentes. Parece HUMANO."
+  introSpeaker: 0
+  introDialogue: 'Un correo institucional. Recuerda: estar bien escrito no lo convierte
+    en IA.'
+  feedbackExplanation: "Era HUMANO. El correo tiene detalles concretos y verificables
+    (sal\xF3n, bloque, motivo del cambio de hora) y viene del dominio oficial de
+    la universidad. Un texto correcto y formal no implica que sea generado por IA."

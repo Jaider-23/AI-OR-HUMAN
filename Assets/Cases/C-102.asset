@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-102
+  m_EditorClassIdentifier: 
+  caseId: C-102
+  level: 1
+  contentType: 0
+  title: "Rese\xF1a de restaurante"
+  sourceLabel: "Plataforma de rese\xF1as \xB7 Usuario \"GourmetReview_88\""
+  contentBody: "Una experiencia culinaria verdaderamente excepcional que deleita
+    todos los sentidos. El ambiente es acogedor y sofisticado, el servicio es impecable
+    y cada plato es una obra maestra. Sin duda, un lugar que recomiendo ampliamente
+    a todos los amantes de la buena gastronom\xEDa."
+  evidenceSprite: {fileID: 0}
+  findings:
+  - tool: 0
+    result: "Cero detalles verificables (ni un plato, ni una fecha). Adjetivos gen\xE9ricos
+      y estructura de tres partes muy pulida."
+    isRelevant: 1
+  - tool: 2
+    result: "Cuenta creada hace 2 d\xEDas con 48 rese\xF1as, todas de 5 estrellas
+      y con el mismo estilo."
+    isRelevant: 1
+  - tool: 3
+    result: "La rese\xF1a no contiene enlaces."
+    isRelevant: 0
+  correctVerdict: 1
+  canShare: 0
+  adaSuggestion: 1
+  adaHint: "Frases gen\xE9ricas y perfectas, sin un solo detalle concreto. Probablemente
+    IA."
+  introSpeaker: 0
+  introDialogue: "Una rese\xF1a muy entusiasta. \xBFQui\xE9n la escribi\xF3 realmente?"
+  feedbackExplanation: "Era IA. El texto no menciona ning\xFAn plato, precio ni an\xE9cdota:
+    solo adjetivos gen\xE9ricos con estructura impecable. Adem\xE1s, el perfil public\xF3
+    decenas de rese\xF1as con el mismo estilo en dos d\xEDas. Ninguna se\xF1al aislada
+    es prueba definitiva, pero juntas forman un patr\xF3n claro."

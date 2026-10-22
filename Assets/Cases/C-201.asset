@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-201
+  m_EditorClassIdentifier: 
+  caseId: C-201
+  level: 2
+  contentType: 1
+  title: 'URGENTE: cuenta bloqueada'
+  sourceLabel: 'De: soporte@banco-segur0.com'
+  contentBody: "Estimado cliente:\n\nURGENTE: Su cuenta bancaria ser\xE1 bloqueada
+    hoy por actividad sospechosa. Para evitarlo, haga clic aqu\xED y verifique su
+    identidad en los pr\xF3ximos 30 minutos:\n\nhttps://bancoseguro-verificacion.co/login\n\nAtentamente,\nDepartamento
+    de Seguridad"
+  evidenceSprite: {fileID: 0}
+  findings:
+  - tool: 1
+    result: El remitente usa "segur0" con un CERO. El banco real usa otro dominio.
+    isRelevant: 1
+  - tool: 3
+    result: "bancoseguro-verificacion.co se registr\xF3 hace 3 d\xEDas y est\xE1
+      en listas de phishing."
+    isRelevant: 1
+  - tool: 0
+    result: "Lenguaje de urgencia y amenaza, saludo gen\xE9rico \"Estimado cliente\"."
+    isRelevant: 1
+  - tool: 4
+    result: "El servidor de env\xEDo est\xE1 en un pa\xEDs distinto al del banco."
+    isRelevant: 0
+  correctVerdict: 2
+  canShare: 1
+  adaSuggestion: 2
+  adaHint: "Urgencia artificial y un dominio extra\xF1o. Suplantaci\xF3n: MANIPULADO."
+  introSpeaker: 0
+  introDialogue: "Nivel de correos. Este mensaje lleg\xF3 a cientos de empleados
+    a la vez."
+  feedbackExplanation: "Era MANIPULADO: un correo de phishing que suplanta a un banco.
+    Pistas: urgencia y amenaza (\"30 minutos\"), remitente con un cero en lugar de
+    una \"o\" y un enlace a un dominio reci\xE9n registrado que no pertenece al banco.
+    Nunca introduzcas credenciales desde un enlace recibido por correo."

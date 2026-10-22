@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-701
+  m_EditorClassIdentifier: 
+  caseId: C-701
+  level: 7
+  contentType: 6
+  title: "Operaci\xF3n Phantom"
+  sourceLabel: "Expediente DTA \xB7 evidencias relacionadas"
+  contentBody: "Texto: comunicado \"oficial\" que anuncia el cierre de la DTA por
+    corrupci\xF3n.\nImagen: foto de la directora de la DTA \"recibiendo sobornos\".\nPerfil:
+    @DTA_Oficial_Prensa, 80.000 seguidores.\nAudio: llamada en la que la directora
+    \"lo confiesa\".\nFuente: todo apareci\xF3 a la misma hora en 300 cuentas."
+  evidenceSprite: {fileID: 0}
+  findings:
+  - tool: 2
+    result: "@DTA_Oficial_Prensa se cre\xF3 hace 5 d\xEDas; los seguidores son cuentas
+      automatizadas."
+    isRelevant: 1
+  - tool: 4
+    result: "La foto original (2024) muestra a la directora en un acto p\xFAblico:
+      el sobre fue a\xF1adido."
+    isRelevant: 1
+  - tool: 1
+    result: "Publicado a la misma hora por 300 cuentas: patr\xF3n de red coordinada."
+    isRelevant: 1
+  - tool: 3
+    result: El comunicado enlaza a dta-oficial.net, un dominio falso.
+    isRelevant: 1
+  - tool: 0
+    result: El audio tiene cortes y la voz no respira entre frases.
+    isRelevant: 1
+  correctVerdict: 2
+  canShare: 1
+  adaSuggestion: 0
+  adaHint: "Mis registros indican que todo es aut\xE9ntico. HUMANO. (Datos posiblemente
+    alterados)"
+  introSpeaker: 1
+  introDialogue: "\xDAltimo acto. Incluso tu querida ADA trabaja para m\xED ahora.
+    \xBFEn qui\xE9n confiar\xE1s?"
+  feedbackExplanation: "Era MANIPULADO: una campa\xF1a coordinada de Phantom que
+    mezcla elementos reales y falsos. La foto real de la directora fue alterada,
+    el audio es una voz clonada, el perfil es una suplantaci\xF3n y la publicaci\xF3n
+    simult\xE1nea en 300 cuentas delata una red de bots. Phantom contamin\xF3 incluso
+    los datos de ADA: por eso hay que verificar SIEMPRE."

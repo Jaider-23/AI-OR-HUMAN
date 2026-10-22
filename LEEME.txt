@@ -1,0 +1,45 @@
+﻿AI OR HUMAN? - Proyecto Unity
+=============================
+
+REQUISITOS
+- Unity 2020.3.49f1 (abrir con Unity Hub > Add/Agregar > seleccionar la carpeta "IA OR HUMAN").
+- La primera vez tarda unos minutos: Unity regenera la carpeta Library.
+
+JUGAR EN EL EDITOR
+- Abrir Assets/Scenes/MainMenuScene.unity y pulsar Play.
+- Controles: WASD o flechas para moverse, E (o Espacio/Enter) para interactuar, Esc para pausa.
+
+GUARDADO AUTOMATICO
+- La partida se guarda sola: al cerrar cada caso, al recoger un fragmento, cada 20 segundos
+  de juego libre, al pausar, al minimizar la ventana y al volver al menu principal.
+- En el menu principal aparece CONTINUAR con el resumen de la partida guardada (caso,
+  puntos, reputacion y cuando se guardo). JUGAR empieza de cero y reemplaza ese guardado.
+- Se guardan el caso actual, la puntuacion, la reputacion, los fragmentos ya recogidos y
+  la posicion de Alex. El modo entrenamiento no se guarda (tampoco borra tu partida).
+- Nunca se guarda a mitad de un caso: si cierras el juego con una investigacion abierta,
+  ese caso se repite completo y los puntos no se cuentan dos veces.
+- Donde: PlayerPrefs, clave "aih_save_v1" (igual que las estadisticas y la configuracion,
+  para que funcione igual en Windows y en Web). Se borra al terminar la investigacion y con
+  el boton BORRAR PROGRESO de la pantalla ESTADISTICAS.
+- Codigo: Assets/Scripts/Core/SaveSystem.cs (datos) y AutoSave.cs (cuando guardar).
+
+ESTRUCTURA
+- Assets/Scripts ............ codigo del juego (casos, puntuacion, reputacion, HUD, dialogos...).
+- Assets/Cases .............. los 11 casos (ScriptableObjects editables).
+- Assets/Level/lab_layout.json  mapa del laboratorio en ASCII (editable).
+- Assets/Level/prop_catalog.json huella de cada mueble (colisiones).
+- Assets/Editor ............. herramientas que generan el nivel, el arte y la interfaz.
+- Assets/Tests .............. pruebas automaticas.
+
+MENU "AI OR HUMAN" (barra superior de Unity)
+- Construir todo: regenera animaciones, casos, mapa, colisiones e interfaz.
+- Compilar para Windows / Compilar para Web (WebGL): genera el juego en la carpeta Builds.
+- Reconstruir interfaz (menu y HUD): regenera solo el menu principal y el HUD, sin tocar
+  arte, casos ni mapa. Hay que ejecutarlo una vez para que aparezcan el boton CONTINUAR y
+  el aviso "PARTIDA GUARDADA".
+- Auditar colisiones: comprueba que todo el mapa es accesible y que no hay paredes invisibles.
+- Prueba automatica de juego: recorre los 11 casos solo.
+
+PRUEBAS
+- Window > General > Test Runner: EditMode (50 pruebas) y PlayMode (Alex recorre el mapa con fisica real).
+- Las pruebas automaticas no tocan tu partida guardada (desactivan el autoguardado mientras corren).

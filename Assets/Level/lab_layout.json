@@ -1,0 +1,502 @@
+{
+    "concept":  "CAMPAIGN PATH (48x30, a single clockwise loop where difficulty equals distance). Alex arrives in the west ATRIUM. The spawn, ADA\u0027s console (3 steps away) and the door to Room 1 all share the first screen. The 4-wide ANALYST AVENUE runs east, and each case door sits a little farther along it, alternating sides. The doors\u0027 BFS distances from spawn are 3/13/16/28/31/36, and the vault\u0027s is 59, so the order is 1-2-3-4-5-6-7. Halfway along, the avenue opens into the HOLO PLAZA, a court with a holo-globe table and a giant news wall that marks the line between the beginner and advanced wings. At the east end the GATE HALL turns south. It is topped by a dead-end OBSERVATION DECK with a panoramic window, a bench and a fragment. It runs down to the loading bay, a 3-wide security gate and the red-lit ANTECHAMBER, a distinct checkpoint with a body scanner. Only from there does a door lead west into the vault, which lies beneath the corridors the player has been walking all game. The 2-wide SERVICE LOOP runs from the bay back to the atrium lounge and closes the circuit, so returning to ADA never means retracing the avenue. The optional EVIDENCE LOCKER sits under the lounge. Fragments are in the lounge, on the deck, on the service loop, in the locker, and in rooms 1, 3, 5 (the booth) and 6. The map has no void, so every 20x11 camera view is filled. Rooms: 1 TEXTS - a small trainee newsroom with one desk, a scrolling chat-log wall and two terminals; calm steel blue. 2 EMAILS - a mailroom/inbox lab with a triage desk, a sorting counter and an inbox wall flagging phishing; cool violet. 3 IMAGES - a photo lab with two light tables and a side-by-side compare screen between its two terminals; teal darkroom glow. 4 SOCIAL MEDIA - an influencer studio with a live feed wall, beanbag, couch and ring light; magenta neon. 5 AUDIO - a sound studio with a mixing desk and a walled recording booth (ON AIR light) holding the terminal; warm rust-orange. 6 DEEPFAKE - a face lab with scan pods and real-vs-fake face screens; uneasy green holo. 7 FINAL CASE - Phantom\u0027s compromised server vault: a long hall of humming racks under red emergency light, ending in an inner sanctum with Phantom\u0027s rig, a glitched sigil and the last terminal. Floor tile suggestions: avenue on concrete with a neon strip, service loop on grates or rust, antechamber on red-lit grate, vault on wet/damaged concrete. | Final: base \u0027campaign\u0027 (ganador de los jueces) + isla holografica en la plaza, mostrador de recepcion movido y terminales de la sala 1 separadas.",
+    "rows":  [
+                 "################################################",
+                 "#111111111#222222222#..........#55555#555#.....#",
+                 "#111111111#222222222#..........#55555#555#.....#",
+                 "#111111111#222222222#...####...#55555#555#.....#",
+                 "#111111111#222222222#...####...#555555555#.....#",
+                 "#111111111#222222222#..........#555555555#.....#",
+                 "##DDD######222222222#..........#555555555#.....#",
+                 "#.........#####DDD###..........##DDD######.....#",
+                 "#..............................................#",
+                 "#..............................................#",
+                 "#..............................................#",
+                 "#..............................................#",
+                 "#.........#######DDD##.........######DDD###....#",
+                 "#.........##333333333#######DDD##666666666#....#",
+                 "#..####...##333333333#4444444444#666666666#....#",
+                 "#.........##333333333#4444444444#666666666#....#",
+                 "#.........##333333333#4444444444#666666666#....#",
+                 "#.........##333333333#4444444444#666666666#....#",
+                 "#.........##333333333#4444444444###########....#",
+                 "#.........#######################..............#",
+                 "#..............................................#",
+                 "#..............................................#",
+                 "##########...##############################...##",
+                 "#............#77777#7777777777777777777#.......#",
+                 "#............#77777#7777777777777777777#.......#",
+                 "#............#7777777777777777777777777D.......#",
+                 "#............#7777777777777777777777777D.......#",
+                 "#............#7777777777777777777777777D.......#",
+                 "#............#77777#7777777777777777777#.......#",
+                 "################################################"
+             ],
+    "spawn":  {
+                  "x":  4,
+                  "y":  9
+              },
+    "ada":  {
+                "x":  6,
+                "y":  7
+            },
+    "terminals":  [
+                      {
+                          "zone":  1,
+                          "x":  2,
+                          "y":  1
+                      },
+                      {
+                          "zone":  1,
+                          "x":  7,
+                          "y":  1
+                      },
+                      {
+                          "zone":  2,
+                          "x":  12,
+                          "y":  1
+                      },
+                      {
+                          "zone":  2,
+                          "x":  18,
+                          "y":  1
+                      },
+                      {
+                          "zone":  3,
+                          "x":  12,
+                          "y":  13
+                      },
+                      {
+                          "zone":  3,
+                          "x":  16,
+                          "y":  13
+                      },
+                      {
+                          "zone":  4,
+                          "x":  22,
+                          "y":  14
+                      },
+                      {
+                          "zone":  4,
+                          "x":  26,
+                          "y":  14
+                      },
+                      {
+                          "zone":  5,
+                          "x":  39,
+                          "y":  1
+                      },
+                      {
+                          "zone":  6,
+                          "x":  33,
+                          "y":  13
+                      },
+                      {
+                          "zone":  7,
+                          "x":  16,
+                          "y":  23
+                      }
+                  ],
+    "fragments":  [
+                      {
+                          "x":  1,
+                          "y":  21
+                      },
+                      {
+                          "x":  46,
+                          "y":  1
+                      },
+                      {
+                          "x":  27,
+                          "y":  21
+                      },
+                      {
+                          "x":  2,
+                          "y":  27
+                      },
+                      {
+                          "x":  9,
+                          "y":  5
+                      },
+                      {
+                          "x":  20,
+                          "y":  18
+                      },
+                      {
+                          "x":  40,
+                          "y":  3
+                      },
+                      {
+                          "x":  41,
+                          "y":  17
+                      }
+                  ],
+    "decor":  [
+                  {
+                      "kind":  "wall_screen",
+                      "x":  9,
+                      "y":  6,
+                      "note":  "ADA avatar screen beside her console"
+                  },
+                  {
+                      "kind":  "counter",
+                      "x":  5,
+                      "y":  12,
+                      "note":  "reception desk"
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  5,
+                      "y":  14,
+                      "note":  "case board on the divider wall (7 cases, progress)"
+                  },
+                  {
+                      "kind":  "sofa",
+                      "x":  4,
+                      "y":  17,
+                      "note":  "lounge sofa facing the case board"
+                  },
+                  {
+                      "kind":  "vending",
+                      "x":  1,
+                      "y":  20,
+                      "note":  "snack machine"
+                  },
+                  {
+                      "kind":  "neon_sign",
+                      "x":  12,
+                      "y":  7,
+                      "note":  "DIGITAL TRUTH AGENCY banner"
+                  },
+                  {
+                      "kind":  "window_panel",
+                      "x":  39,
+                      "y":  7,
+                      "note":  "night-city window"
+                  },
+                  {
+                      "kind":  "window_panel",
+                      "x":  25,
+                      "y":  0,
+                      "note":  "giant news wall / city panorama"
+                  },
+                  {
+                      "kind":  "sofa",
+                      "x":  22,
+                      "y":  2,
+                      "note":  "plaza bench"
+                  },
+                  {
+                      "kind":  "lamp",
+                      "x":  29,
+                      "y":  2,
+                      "note":  "plaza light post"
+                  },
+                  {
+                      "kind":  "window_panel",
+                      "x":  44,
+                      "y":  0,
+                      "note":  "panoramic window over the city"
+                  },
+                  {
+                      "kind":  "sofa",
+                      "x":  44,
+                      "y":  3,
+                      "note":  "bench facing the window"
+                  },
+                  {
+                      "kind":  "server_rack",
+                      "x":  46,
+                      "y":  13,
+                      "note":  "network trunk"
+                  },
+                  {
+                      "kind":  "neon_sign",
+                      "x":  40,
+                      "y":  18,
+                      "note":  "RESTRICTED - arrow to the gate"
+                  },
+                  {
+                      "kind":  "wall_panel",
+                      "x":  14,
+                      "y":  19,
+                      "note":  "pipes and vents"
+                  },
+                  {
+                      "kind":  "wall_panel",
+                      "x":  27,
+                      "y":  19,
+                      "note":  "fuse box"
+                  },
+                  {
+                      "kind":  "crate",
+                      "x":  34,
+                      "y":  19,
+                      "note":  "loading-bay crates"
+                  },
+                  {
+                      "kind":  "cabinet",
+                      "x":  2,
+                      "y":  23,
+                      "note":  "evidence shelves"
+                  },
+                  {
+                      "kind":  "cabinet",
+                      "x":  6,
+                      "y":  23,
+                      "note":  "evidence shelves"
+                  },
+                  {
+                      "kind":  "table",
+                      "x":  4,
+                      "y":  25,
+                      "note":  "evidence table with bagged phones"
+                  },
+                  {
+                      "kind":  "crate",
+                      "x":  8,
+                      "y":  28,
+                      "note":  "seized hardware"
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  41,
+                      "y":  22,
+                      "note":  "red VAULT - AUTHORIZED ONLY display"
+                  },
+                  {
+                      "kind":  "console",
+                      "x":  45,
+                      "y":  26,
+                      "note":  "security body-scanner"
+                  },
+                  {
+                      "kind":  "crate",
+                      "x":  46,
+                      "y":  28,
+                      "note":  "quarantine crate"
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  5,
+                      "y":  0,
+                      "note":  "scrolling chat-log wall"
+                  },
+                  {
+                      "kind":  "desk",
+                      "x":  6,
+                      "y":  3,
+                      "note":  "trainee desk"
+                  },
+                  {
+                      "kind":  "chair",
+                      "x":  6,
+                      "y":  4,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "cabinet",
+                      "x":  1,
+                      "y":  1,
+                      "note":  "paper archive"
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  15,
+                      "y":  0,
+                      "note":  "inbox wall with phishing flags"
+                  },
+                  {
+                      "kind":  "desk",
+                      "x":  13,
+                      "y":  3,
+                      "note":  "mail triage desk"
+                  },
+                  {
+                      "kind":  "chair",
+                      "x":  13,
+                      "y":  4,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "counter",
+                      "x":  18,
+                      "y":  4,
+                      "note":  "mail sorting counter"
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  14,
+                      "y":  12,
+                      "note":  "side-by-side photo compare"
+                  },
+                  {
+                      "kind":  "table",
+                      "x":  14,
+                      "y":  16,
+                      "note":  "light table"
+                  },
+                  {
+                      "kind":  "table",
+                      "x":  18,
+                      "y":  16,
+                      "note":  "light table"
+                  },
+                  {
+                      "kind":  "chair",
+                      "x":  14,
+                      "y":  17,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "cabinet",
+                      "x":  12,
+                      "y":  18,
+                      "note":  "print drawers"
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  24,
+                      "y":  13,
+                      "note":  "live feed wall"
+                  },
+                  {
+                      "kind":  "beanbag",
+                      "x":  23,
+                      "y":  17,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "sofa",
+                      "x":  28,
+                      "y":  17,
+                      "note":  "influencer couch"
+                  },
+                  {
+                      "kind":  "lamp",
+                      "x":  31,
+                      "y":  15,
+                      "note":  "ring light"
+                  },
+                  {
+                      "kind":  "wall_panel",
+                      "x":  36,
+                      "y":  0,
+                      "note":  "ON AIR light above the booth entrance"
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  34,
+                      "y":  0,
+                      "note":  "waveform display"
+                  },
+                  {
+                      "kind":  "console",
+                      "x":  34,
+                      "y":  3,
+                      "note":  "mixing desk"
+                  },
+                  {
+                      "kind":  "chair",
+                      "x":  34,
+                      "y":  4,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  35,
+                      "y":  12,
+                      "note":  "real-vs-fake face compare"
+                  },
+                  {
+                      "kind":  "wall_screen",
+                      "x":  41,
+                      "y":  12,
+                      "note":  "face-mesh render"
+                  },
+                  {
+                      "kind":  "pod",
+                      "x":  36,
+                      "y":  16,
+                      "note":  "face-scan pod"
+                  },
+                  {
+                      "kind":  "pod",
+                      "x":  40,
+                      "y":  16,
+                      "note":  "face-scan pod"
+                  },
+                  {
+                      "kind":  "wall_panel",
+                      "x":  18,
+                      "y":  22,
+                      "note":  "glitched PHANTOM sigil above the final terminal"
+                  },
+                  {
+                      "kind":  "wall_panel",
+                      "x":  37,
+                      "y":  22,
+                      "note":  "red emergency light"
+                  },
+                  {
+                      "kind":  "console",
+                      "x":  14,
+                      "y":  24,
+                      "note":  "Phantom\u0027s rig, cables to the terminal"
+                  },
+                  {
+                      "kind":  "server_rack",
+                      "x":  23,
+                      "y":  23,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "server_rack",
+                      "x":  28,
+                      "y":  23,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "server_rack",
+                      "x":  33,
+                      "y":  23,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "server_rack",
+                      "x":  23,
+                      "y":  28,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "server_rack",
+                      "x":  28,
+                      "y":  28,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "server_rack",
+                      "x":  33,
+                      "y":  28,
+                      "note":  ""
+                  },
+                  {
+                      "kind":  "neon_sign",
+                      "x":  25,
+                      "y":  4,
+                      "note":  "logo DTA en la isla holografica de la plaza"
+                  },
+                  {
+                      "kind":  "sofa",
+                      "x":  23,
+                      "y":  6,
+                      "note":  "banco frente a la isla"
+                  },
+                  {
+                      "kind":  "sofa",
+                      "x":  28,
+                      "y":  6,
+                      "note":  "banco frente a la isla"
+                  }
+              ]
+}

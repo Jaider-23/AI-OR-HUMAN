@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-402
+  m_EditorClassIdentifier: 
+  caseId: C-402
+  level: 4
+  contentType: 3
+  title: "Cierre de v\xEDa por emergencia"
+  sourceLabel: "@BomberosCiudad \xB7 cuenta verificada desde 2012"
+  contentBody: 'ALERTA: Cierre total de la Av. Circunvalar entre calles 45 y 52 por
+    deslizamiento de tierra. Usen rutas alternas. Actualizaciones en bomberos.gov.co/emergencias'
+  evidenceSprite: {fileID: 0}
+  findings:
+  - tool: 2
+    result: Cuenta oficial verificada desde 2012 con publicaciones constantes.
+    isRelevant: 1
+  - tool: 3
+    result: bomberos.gov.co es el dominio oficial del gobierno.
+    isRelevant: 1
+  - tool: 1
+    result: Dos medios locales confirman el cierre con fotos propias.
+    isRelevant: 0
+  correctVerdict: 0
+  canShare: 1
+  adaSuggestion: 0
+  adaHint: Fuente oficial con historial largo. Parece HUMANO y fiable.
+  introSpeaker: 0
+  introDialogue: "No todo es falso. Compartir informaci\xF3n verificada tambi\xE9n
+    es responsable."
+  feedbackExplanation: "Era HUMANO: una alerta real de una cuenta oficial verificada,
+    con enlace a un dominio .gov.co y coincidente con otros medios. Compartir informaci\xF3n
+    verificada de emergencias ayuda a la comunidad."

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-301
+  m_EditorClassIdentifier: 
+  caseId: C-301
+  level: 3
+  contentType: 2
+  title: Foto de perfil de una reclutadora
+  sourceLabel: "Red profesional \xB7 \"Laura M., Talent Acquisition\""
+  contentBody: "Laura te escribi\xF3 ofreci\xE9ndote un trabajo remoto muy bien pagado
+    y te pide tus datos personales. Esta es su foto de perfil."
+  evidenceSprite: {fileID: 21300000, guid: 489c96a73bcb87242a0bb22f05c8414b, type: 3}
+  findings:
+  - tool: 0
+    result: "Los textos de las pantallas del fondo son ilegibles o est\xE1n mal escritos:
+      t\xEDpico de im\xE1genes generadas."
+    isRelevant: 1
+  - tool: 4
+    result: "Sin datos EXIF de c\xE1mara. Resoluci\xF3n 1408\xD7768, habitual en
+      generadores de im\xE1genes."
+    isRelevant: 1
+  - tool: 2
+    result: "Perfil creado hace 1 semana, 500 contactos y ninguna publicaci\xF3n
+      propia."
+    isRelevant: 1
+  correctVerdict: 1
+  canShare: 0
+  adaSuggestion: 1
+  adaHint: La imagen es demasiado perfecta y los textos del fondo no se leen. IA.
+  introSpeaker: 0
+  introDialogue: "Nivel de im\xE1genes. Observa los detalles, no solo la impresi\xF3n
+    general."
+  feedbackExplanation: "Era IA. Los textos de las pantallas hologr\xE1ficas est\xE1n
+    deformados (\"DIAGNOTIC DATA\"), no hay datos de c\xE1mara y el perfil no tiene
+    historial. Las im\xE1genes generadas suelen fallar en texto, manos y detalles
+    finos."

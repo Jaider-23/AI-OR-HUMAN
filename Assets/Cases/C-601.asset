@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-601
+  m_EditorClassIdentifier: 
+  caseId: C-601
+  level: 6
+  contentType: 5
+  title: Video de un candidato
+  sourceLabel: "Video viral \xB7 2,1 M de reproducciones"
+  contentBody: "[Descripci\xF3n del video \xB7 0:42]\nUn candidato a la alcald\xEDa
+    aparece en un evento p\xFAblico diciendo: \"S\xED, compramos votos y lo volver\xEDamos
+    a hacer\". El video circula a dos d\xEDas de las elecciones."
+  evidenceSprite: {fileID: 0}
+  findings:
+  - tool: 4
+    result: "El video se recomprimi\xF3 3 veces. El clip base es un discurso real
+      de 2019 con otro audio."
+    isRelevant: 1
+  - tool: 0
+    result: Los labios no coinciden con las palabras en varios momentos.
+    isRelevant: 1
+  - tool: 1
+    result: "Lo public\xF3 primero una red de cuentas an\xF3nimas creadas este mes."
+    isRelevant: 1
+  - tool: 2
+    result: "El candidato denunci\xF3 el video en su cuenta oficial."
+    isRelevant: 0
+  correctVerdict: 2
+  canShare: 1
+  adaSuggestion: 1
+  adaHint: "Detecto rasgos sint\xE9ticos en la cara: todo el video es generado por
+    IA."
+  introSpeaker: 1
+  introDialogue: "Las elecciones se deciden en las redes, analista. \xBFDetendr\xE1s
+    la verdad... o la m\xEDa?"
+  feedbackExplanation: "Era MANIPULADO: un deepfake construido sobre un video REAL
+    de un discurso de 2019, con la cara y la voz alteradas. No es completamente generado
+    por IA (como sugiri\xF3 ADA): parte de material aut\xE9ntico. Distinguir \"generado\"
+    de \"manipulado\" importa."

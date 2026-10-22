@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c9e16b2b8d7e40978aab386b69052, type: 3}
+  m_Name: C-401
+  m_EditorClassIdentifier: 
+  caseId: C-401
+  level: 4
+  contentType: 3
+  title: Titular viral sobre el agua
+  sourceLabel: "Captura compartida 12.400 veces \xB7 atribuida a \"Diario El Observador\""
+  contentBody: "\"CIENT\xCDFICOS CONFIRMAN: el agua del grifo de la ciudad causa
+    p\xE9rdida de memoria\"\n\nComentario del usuario: \xA1\xA1Compartan antes de
+    que lo borren!!"
+  evidenceSprite: {fileID: 0}
+  findings:
+  - tool: 1
+    result: "En la web oficial del diario el titular es: \"Cient\xEDficos estudian
+      la calidad del agua de la ciudad\"."
+    isRelevant: 1
+  - tool: 4
+    result: "La captura fue editada: dos tipograf\xEDas distintas en el mismo titular."
+    isRelevant: 1
+  - tool: 0
+    result: Lenguaje alarmista y llamado urgente a compartir.
+    isRelevant: 1
+  - tool: 2
+    result: "Quien la public\xF3 tiene 30 cuentas parecidas que comparten lo mismo."
+    isRelevant: 0
+  correctVerdict: 2
+  canShare: 1
+  adaSuggestion: 0
+  adaHint: "El medio es real y conocido, as\xED que la noticia debe ser real. HUMANO."
+  introSpeaker: 0
+  introDialogue: "Nivel de redes sociales. Esta publicaci\xF3n se est\xE1 volviendo
+    viral."
+  feedbackExplanation: "Era MANIPULADO. El medio existe, pero el titular original
+    dec\xEDa \"Cient\xEDficos estudian la calidad del agua\". Alguien edit\xF3 la
+    captura (tipograf\xEDas distintas) para alarmar. \xA1Y ADA se equivoc\xF3! Que
+    una fuente sea real no significa que el contenido no se haya alterado."
